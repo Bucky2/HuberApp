@@ -1,0 +1,17 @@
+void main(){
+    //utilizando estructura Map para manejo de datos
+    //Map <tipoClave, tipoValor> nombreMap = {Conjunto de datos};
+    <String, int> map = {'key1':10,'key2':20,'key3':30,'key4':40};
+    //imprimir solo las claves para acceder a los datos
+    print(map.keys);
+    //imprimir solo los valores del Map
+    print(map1['key3']);
+    //para imprimir todo el Map
+    print('Map completo:');
+    print(map1);
+
+    map map2 = {'clave0:0,1:'dato2','clave1':};
+    print(map2);
+
+
+}

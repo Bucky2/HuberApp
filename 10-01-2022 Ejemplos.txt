@@ -1,0 +1,35 @@
+class Persona{
+  //propiedades o atributos 
+  String? nombre;
+  int? edad;
+  int _valorPrivado=0;
+  
+  //Get y set
+  int get valorPrivado{
+    return _valorPrivado;
+}
+  
+  set valorPrivado(int valor){
+    _valorPrivado = valor; 
+  }
+  Persona(){
+    valorPrivado= 1;
+    }
+  
+  @override
+  String toString(){
+    return 'nombre: ${this.nombre}, edad: ${this.edad},valor:${this.valorPrivado}';
+    }
+}
+  
+  void main(List<String> args) {
+    //se define un objeto de la clase
+    final persona = Persona();
+    //Se asigna propieda de manera directa sin set
+    persona.nombre = 'Juan';
+    persona.edad=18;
+    persona.valorPrivado= 10;
+    
+    print(persona.toString());
+}
+  

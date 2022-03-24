@@ -1,0 +1,55 @@
+Dado un conjunto de N calificaciones del 1 al 10
+1.- oantener el primedio
+2.- Cal mas alta
+3.- cal mas baja
+
+Ejemplo
+[10,9,8,10,9,8,10,9,8]
+
+promedio=9
+Mas alta=10
+Mas baja
+
+void main() {
+  List<int> calf=[7,5,9,10,9,6,7,8,6,7,8];
+  int total=0;
+  int mayor, menor;
+  mayor= menor= calf[0];
+  
+  for(int i=0;i<calf.length;i++){
+    total+=calf[i];
+  }
+  double prom=total/calf.length;
+  for(int i=0;i<calf.length;i++){
+    if (calf[i]>mayor){
+      mayor= calf[i];
+    }
+    if(calf[i]<menor){
+      menor= calf[i];
+    }
+  }
+  print('El promedio es: $prom');
+  print('La calificacion mas alta es: $mayor');
+  print('La calificacion mas baja es: $menor');
+    
+}
+
+
+-----------------------------------------------------------------------------------------
+Vercion alterna
+void main() {
+  //Se define la lista con las calificaciones
+ List <num> califs =[10,8,9,10,8,9,10,8,9];
+  //Se4 ordena la lista de calificaciones
+  califs.sort();
+  int ultimo = califs.length - 1;
+  print('La mayor calificacion es: ${califs[ultimo]}');
+  print('La menor calificacion es: ${califs[0]}');
+  num sum=0;
+  
+  califs.forEach(( num element){
+    sum += element;
+  });
+  num prom = sum / califs.length;
+  print('EL promedio es: $prom');
+}

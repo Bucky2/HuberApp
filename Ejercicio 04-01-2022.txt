@@ -1,0 +1,21 @@
+void main() {/*
+  var variable; //Decoaracion de variable
+  variable = 'Angel' ; //Se define como cadena
+  variable = 12;
+  variable = variable + 1;
+  
+  print(variable);*/
+  
+  String datoCadena = 'MiCadena';
+  
+  //para imprimir utilizamos interpolacion de cadenas
+  print('Este dato es una cadena: $datoCadena');
+  
+  //datoCadeba = 4.5;
+  
+  bool resp = true; //Para datos booleanos
+  
+  if(resp){
+    print('Respuesta $resp es verdadero');
+    }
+}

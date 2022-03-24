@@ -1,0 +1,27 @@
+class Persona {
+ String? nombre;
+ num peso= 0;
+ num est= 0;
+ num imc = 0;
+   
+  //Construntos de la calse Persona con trs parapretros
+   Persona(nombre, peso, estatura){
+   this.nombre = nombre;
+   this.peso = peso;
+   this.est = estatura; 
+ }
+  
+  void calcularImc(){
+    imc = peso / (est* est);
+  }
+}
+
+void main(List<String> args){
+  final perl = new Persona('Miguel',80,1.7);
+  perl.calcularImc();
+  print('Imc ${perl.imc}');
+  
+  //Agregar los metodos necesarios para que funcionen
+  //Iprimiendo los datos correspondientes a la persona
+  //diciend si la persona esta normal, sobrepeso o bajo peso
+}

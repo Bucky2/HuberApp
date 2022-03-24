@@ -1,0 +1,22 @@
+Desarrollo movil multiplataforma
+Unidades:
+
+Marco de referencia DMM
+Desarrollo para ambientes multiplataforma
+Control de dispositivos de hardware abierto
+
+tipos de aplicaciones M.
+Multiplaforma: Flutter y xamarin
+
+Nativas: Android:
+AndroidStudio
+Java
+Kodlin
+
+IOS:
+XCode
+
+Hibridas: HTML, CSS, JavaScript, Apache cordova, phoneGrap.
+Son mas que nada tecnologias orientadas a la web 
+
+Hacer un analicis de las ventajas y desventajas de las aplicaciones Nativas y Multiplataformas.

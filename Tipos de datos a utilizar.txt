@@ -1,0 +1,18 @@
+Tipo de dato
+var 
+int{double
+nun
+bool
+String 
+List
+
+Tipos primitivos
+Null
+int
+double 
+Strong
+List
+Set
+Map
+Runes
+simbol

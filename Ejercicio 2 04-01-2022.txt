@@ -1,0 +1,27 @@
+void main() {
+  List <int> conjunto=[1,5,9,8,7,4,3,2];
+  int pares=0;
+  int impares=0;
+  
+  List<int> conjPares=[];
+  List<int> conjImpares=[];
+  
+  for(int i=0;i<conjunto.length;i++){
+    int residuo= conjunto[i]%2;
+    if (residuo==0){
+      pares++;
+      conjPares.add(conjunto[i]);
+    }else{
+        impares++;
+        conjImpares.add(conjunto[i]);
+      }
+    }
+    
+    print('Cantidad de numeros pares:$pares');
+    print('Numero Pares');
+    print(conjPares);
+  
+     print('Cantidad de numeros Impares:$impares');
+    print('Numeros Impares');
+    print(conjImpares);
+}

@@ -1,0 +1,19 @@
+//metodo principal
+void main(List<String>args) {
+  String nombre = 'Juan'; //variable cadena
+  //String msg = 'Hola';
+  saludar(nombre); //Llamando o invocando funcion o metodo
+  saludar2(mensaje:'Hola a todos', nombre: nombre);
+}
+
+//tipoRetorno, nombreFuncion,(ArgumentosFuncion, ninguno o muchos separados por )
+void saludar(String nombre, [String mensaje= 'Hi' ]){
+  print('$mensaje $nombre');
+}
+
+// required indica que el parametro es obligatorio
+// El signo? indica que puede aceptar nulos 
+void saludar2 ({required String nombre, required String mensaje}) {
+  print ('El nombre ingresado es: $nombre');
+  print ('El mensaje es...$mensaje');
+}
